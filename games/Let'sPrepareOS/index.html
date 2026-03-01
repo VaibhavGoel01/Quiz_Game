@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Operating System Quiz - 2 Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Operating Systems Quiz 🎓</h1>
+
+<div id="start-screen">
+    <button onclick="startGame()">Start Game</button>
+</div>
+
+<div id="quiz-screen" class="hidden">
+    <h2 id="player-turn"></h2>
+    <h3 id="question"></h3>
+
+    <div id="options"></div>
+
+    <button onclick="nextQuestion()">Next</button>
+</div>
+
+<div id="result-screen" class="hidden">
+    <h2 id="result"></h2>
+    <button onclick="restartGame()">Play Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

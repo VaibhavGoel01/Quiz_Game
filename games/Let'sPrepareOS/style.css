@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#options button {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.wrong {
+    background-color: salmon;
+}
